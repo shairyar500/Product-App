@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+    <header>
+        
+        <!-- buttons in header -->
+        <ul class="buttons">
+            <li data-filter="all" class="active"><a href="#">See All</a></li>
+            <li data-filter="greocery"><a href="#">Greocery</a></li>
+            <li data-filter="shoes"><a href="#">Shoes</a></li>
+            <li data-filter="electronics"><a href="#">Electronics</a></li>
+        </ul>
+    </header>
+    <h1>Our Products</h1>
+      
+<!-- grocery items -->
+    <div>
+        <ul class="product">
+          <li data-category="greocery">
+            <img src="Images/milk.jpg" alt="MIlk" />
+            <p>Milk Pack</p>
+            <h4>Rs/-  120/Pack</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="greocery">
+            <img src="Images/Coffee.jpg" alt="coffee mate creamer" />
+            <p>coffee mate creamer</p>
+            <h4>Rs/- 900</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="greocery">
+            <img src="Images/juice.jpg" alt="juice bar" />
+            <p>juice bar</p>
+            <h4>Rs/- 500</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="greocery">
+            <img src="Images/mugs.jpg" alt="Mugs" />
+            <p>Mugs and Cups</p>
+            <h4>Rs/- 300</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="greocery">
+            <img src="Images/bread.jpg" alt="Bread" />
+            <p>Bread</p>
+            <h4>Rs/- 400</h4>
+            <button>Shop Now</button>
+          </li>
+<!-- clothes items -->
+          <li data-category="shoes" alt="shoes nike">
+            <img src="Images/nike.jpg" />
+            <p>Shoes Brand Nike</p>
+            <h4>Rs/- 2500</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="shoes" alt="joggers">
+            <img src="Images/joggers.jpg" />
+            <p>joggers</p>
+            <h4>Rs/- 3550</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="shoes" alt="ladies shoes">
+            <img src="Images/For ladies.jpg" />
+            <p>Comforts shoes for Ladies </p>
+            <h4>Rs/- 2700</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="shoes" alt="aerobics">
+            <img src="Images/aerobics.jpg" />
+            <p>Aerobics</p>
+            <h4>Rs/- 5500</h4>
+            <button>Shop Now</button>
+          </li>
+          
+
+<!-- electronics items -->
+          <li data-category="electronics" alt="laptop">
+            <img src="Images/laptop.jpg" />
+            <p>Laptop new version 2021</p>
+            <h4>Rs/- 52000</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="electronics" alt="refrigerator">
+            <img src="Images/friege.jpg" />
+            <p>refrigerator</p>
+            <h4>Rs/- 22500</h4>
+            <button>Shop Now</button>
+          </li>
+          <li data-category="electronics" alt="AC">
+            <img src="Images/AC.jpg" />
+            <p>Air Conditionor</p>
+            <h4>Rs/- 55000</h4>
+            <button>Shop Now</button>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
+</body>
+</html>
